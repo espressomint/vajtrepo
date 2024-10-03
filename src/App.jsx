@@ -18,7 +18,7 @@ function App() {
       </div>
       <h1>Vite + React</h1>
 
-        <a className="bigLink" href="https://www.youtube.com/watch?v=ykOEauDxFkQ">
+        <a className="bigLink" href="https://react.dev/">
           <div className="bigLinkBackground"></div>
           heyo
 
