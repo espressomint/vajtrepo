@@ -40,3 +40,32 @@
 .read-the-docs {
   color: #888;
 }
+
+.bigLink{
+  font-size: 24px;
+  margin-bottom: 12px;
+  position: relative;
+  z-index: 1;
+  padding: 2px 8px;
+  transition: color 50ms ease ease-in-out;
+  cursor: pointer;
+}
+
+.bigLinkBackground{
+  background-color: transparent;
+  position: absolute;
+  top: -4px;
+  bottom: -4px;
+  left: -4px;
+  right: -4px;
+  z-index: -1;
+  border: 2px solid transparent;
+  transition: all .12s ease-in-out, border 60ms ease-in-out;
+  pointer-events: none;
+
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
